@@ -373,7 +373,6 @@ p {
   }
 }
 .fh5co-post-entry article {
-  text-align: center;
   float: left;
   margin-bottom: 110px;
   padding-left: 3em;
@@ -413,8 +412,9 @@ p {
   margin-bottom: 30px;
 }
 .fh5co-post-entry article h2 {
-  font-family: "Playfair Display", times, serif;
-  font-size: 30px;
+  font-family: serif;
+  text-align: center;
+  font-size: 25px;
   color: #000;
   margin-bottom: 30px;
 }
@@ -448,6 +448,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
+  text-align: center;
 }
 .fh5co-post-entry article .content-article {
   padding-top: 4em;
@@ -499,6 +500,8 @@ p {
 }
 
 .fh5co-post-entry article small {
+  font-family: "Playfair Display", times, serif;
+  text-align: justify;
   font-size: 14px;
 }
 
