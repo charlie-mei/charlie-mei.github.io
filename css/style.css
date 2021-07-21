@@ -413,7 +413,7 @@ p {
 }
 .fh5co-post-entry article h2 {
   font-family: "Playfair Display", times, serif;
-  font-size: 34px;
+  font-size: 30px;
   color: #000;
   margin-bottom: 30px;
 }
@@ -446,6 +446,7 @@ p {
 .fh5co-post-entry article .fh5co-meta.fh5co-date {
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 11px;
 }
 .fh5co-post-entry article .content-article {
   padding-top: 4em;
@@ -496,6 +497,10 @@ p {
   font-size: 20px;
 }
 
+.fh5co-post-entry article small {
+  font-size: 14px;
+}
+
 .fh5co-social {
   padding: 0;
   margin: 30px 0 0 0;
@@ -530,6 +535,7 @@ figure figcaption {
   overflow-y: auto;
   opacity: 0;
   display: none;
+  font-size: 14px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-offcanvas {
@@ -599,6 +605,7 @@ figure figcaption {
 }
 #fh5co-offcanvas .fh5co-bio img {
   width: 180px;
+  height: 180px;
   margin: 0 auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
