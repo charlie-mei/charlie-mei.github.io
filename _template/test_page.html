@@ -21,14 +21,7 @@
 
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
-
-	<script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("../content/strategizing-customer-retention.html"); 
-    });
-    </script> 
-
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
 	</head>
 	
 	<body>
@@ -53,7 +46,13 @@
 
 	</header>
 	<!-- END #fh5co-header -->
-	<div id="includedContent"></div>
+
+	<!-- LINK TO POST HERE -->
+	<p> Please enter content... </p>
+	<div w3-include-html="../content/predicting-airbnb.html"></div>
+
+	<script>w3.includeHTML();</script>
+
 	<footer id="fh5co-footer">
 		<p>
 			<small>&copy; 2021 Designed by Charlie Mei</small>
