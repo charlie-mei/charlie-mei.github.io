@@ -1,17 +1,17 @@
 ---
+layout: page
+title: Strategizing customer retention with customer review data
 img_path: /assets/clothing_nlp_project.jpg
-link: https://github.com/Charlie-Mei/understanding-clothing-reviews
 project_name: Customer retention through basic NLP
-date: "2020-02-02"
+date: "2020-05-01"
+github_link: "https://github.com/Charlie-Mei/understanding-clothing-reviews"
 ---
 
 ## Strategizing customer retention with customer review data
 
-As customer needs grow more and more complex and nuanced, businesses require an ever deeper understanding of their customers in order to boost customer retention and brand loayalty. Anonymized product reviews provide a treasure grove of data for companies to use to better understand their customer markets. 
+As customer needs grow more and more complex, businesses require a deeper understanding of their customers in order to boost retention and brand loyalty. Anonymized product reviews provide a treasure grove of data for companies to better understand their customers. 
 
 This spring, I worked with a group of fellow classmates from grad school to understand how businesses can break down text data to understand their customers.
-
-> A link to the source code and methodology used in this project is available [here](https://github.com/Charlie-Mei/understanding-clothing-reviews).
 
 We found a dataset on reviews of women's e-commerce clothing reviews on [Kaggle](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews). The dataset provided text data on how each customer reviewed and rated their purchase, as well as a flag that indicated whether or not they recommended their product of purhcase.  The dataset was related to a specific, anonymized e-commerce retailer.
 
@@ -24,11 +24,11 @@ From this data, it was possible to understand:
 
 A wordcloud offers a quick exploratory way to understand the typical words used by reviewers of clothing products. It appears words such as "fit", "size" and "look" are among the top five words used. This result is interesting; thee words potentially reveal the main factors that customers are considering as they are considering whether or not to buy a certain clothing product.
 
-![Top 100 Words](imgs/review-wordcloud.png)
+![Top 100 Words](/img/review-wordcloud.jpg)
 
 We also assigned sentiment scores to the words used by reviewers. Our method of score allocation was based on the "Afinn" lexicon, as that method anks words used by customers on a scale of -5 to 5, where the higher the number indicates the more positive the sentiment. Based on this approach, it appears that customers tended to have, on average, a positive sentiment on the clothing products offered by this retailer.
 
-![Sentiment](imgs/average-clothing-sentiment.png)
+![Sentiment](/img/average-clothing-sentiment.jpg)
 
 ### Do certain words indicate higher likelihood of recommendation?
 
@@ -38,8 +38,8 @@ Random forest models are particularly useful in extracting the top explanatory f
 
 A variable importance plot visualizes the results from this analysis. The numeric axis indicates by how much each word/sentiment reduces the error in predicting recommendatio. Based on this approach, we identified consumer sentiment as the key predictor for recommending the product. In terms of words, "class", "return", "age" and "perfect" were all top predictors of recommendation too.
 
-![Modeling Results](imgs/random-forest-results.png)
+![Modeling Results](/img/random-forest-results.jpg)
 
 ### Putting together the results
 
-The results from our analysis indicate that there is indeed value for businsses in using customer review data to understand their customers. While surveys and focus groups are traditional approaches, basic text analysis also offers a complementary tool to deriving new and potentially surprising strategies for reducing customer churn and increasing customer loyalty.
+The results from our analysis indicate that there is indeed value for businesses in using customer review data to understand their customers. While surveys and focus groups are traditional approaches, basic text analysis also offers a complementary tool to deriving new and potentially surprising strategies for reducing customer churn and increasing customer loyalty.

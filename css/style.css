@@ -10,13 +10,16 @@ html {
 }
 
 body {
-  font-family: "Roboto", arial, sans-serif;
-  font-size: 18px;
+  font-family: "Playfair Display", times, serif;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 1.5;
   color: #222;
   background: #fff;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+
 body.fh5co-overflow {
   overflow-x: auto;
 }
@@ -51,11 +54,18 @@ a:hover, a:focus, a:active {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", times, serif;
   color: #000;
+  margin-bottom: 20px;
 }
 
 p {
   margin-bottom: 30px;
-  margin-left: 30px;
+}
+
+img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn {
@@ -290,6 +300,16 @@ p {
   font-size: 20px;
   top: -20px;
 }
+#fh5co-header #fh5co-logo-small {
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  margin-left: -200px;
+}
+#fh5co-header #fh5co-logo-small a {
+  color: #000;
+}
+
 
 .fh5co-post-prev,
 .fh5co-post-next {
@@ -608,13 +628,10 @@ figure figcaption {
   margin-bottom: 30px;
 }
 #fh5co-offcanvas .fh5co-bio img {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 120px;
   margin: 0 auto;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 #fh5co-offcanvas .fh5co-bio p {
   font-size: 16px;
