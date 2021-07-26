@@ -1,3 +1,10 @@
+---
+img_path: /assets/clothing_nlp_project.jpg
+link: https://github.com/Charlie-Mei/understanding-clothing-reviews
+project_name: Customer retention through basic NLP
+date: "2020-02-02"
+---
+
 ## Strategizing customer retention with customer review data
 
 As customer needs grow more and more complex and nuanced, businesses require an ever deeper understanding of their customers in order to boost customer retention and brand loayalty. Anonymized product reviews provide a treasure grove of data for companies to use to better understand their customer markets. 

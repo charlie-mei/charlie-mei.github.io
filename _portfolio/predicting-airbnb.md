@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Predicting Airbnb Prices
-author: ''
-slug: predicting-airbnb-prices
+img_path: /assets/airbnb_image.jpg
+link: https://github.com/Charlie-Mei/predict-airbnb-prices
+project_name: Predicting Airbnb Prices
+date: 2020-02-02
 ---
 
 The rise of Airbnb has provided travelers with an alluring alternate method of accommodation. Instead of staying in traditional hotels, eager travelers now have the option of staying in other people's homes, making for somewhat of a more personal living experience. While we have since a meteoric rise in the number of Airbnb stays, hosts of Airbnb accommodations face the dilemma of setting optimal prices for charging travelers for their stay.
