@@ -19,6 +19,14 @@ body {
   margin-left: 200px;
   margin-right: 200px;
 }
+@media screen and (max-width: 480px) {
+  body {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 25px 25px 25px 25px;
+  }
+}
+
 
 body.fh5co-overflow {
   overflow-x: auto;
@@ -67,6 +75,13 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (max-width: 480px) {
+  img {
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
 
 .btn {
   margin-right: 4px;
@@ -264,7 +279,6 @@ img {
 @media screen and (max-width: 1200px) {
   #fh5co-header .fh5co-social {
     right: 15px !important;
-    top: 3.2em;
   }
 }
 @media screen and (max-width: 768px) {
@@ -279,7 +293,6 @@ img {
     left: inherit !important;
     top: 5em;
     left: 50% !important;
-    margin-left: -50px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -308,6 +321,13 @@ img {
 }
 #fh5co-header #fh5co-logo-small a {
   color: #000;
+}
+
+@media screen and (max-width: 480px) {
+  #fh5co-header #fh5co-logo-small {
+    box-sizing: border-box;
+    text-align: right;
+  }
 }
 
 
@@ -536,10 +556,21 @@ img {
   list-style: none;
   display: inline;
 }
+@media screen and (max-width: 480px) {
+  .fh5co-social {
+    box-sizing: border-box;
+  }
+}
+
 .fh5co-social li a {
   font-size: 20px;
   padding: 4px;
   color: #000;
+}
+@media screen and (max-width: 480px) {
+  .fh5co-social a {
+    box-sizing: border-box;
+  }
 }
 
 figure figcaption {
