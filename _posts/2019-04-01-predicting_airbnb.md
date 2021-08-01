@@ -5,6 +5,7 @@ img_path: /assets/airbnb_image.jpg
 project_name: Predicting Airbnb Prices
 date: 2019-04-01
 github_link: "https://github.com/Charlie-Mei/predict-airbnb-prices"
+report_link: "https://github.com/Charlie-Mei/predict-airbnb-prices/blob/master/reports/C_Report.pdf"
 ---
 
 ## Predicting Airbnb Prices

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Strategizing customer retention with customer review data
-img_path: /assets/clothing_nlp_project.jpg
+img_path: /img/review-wordcloud.jpg
 project_name: Customer retention through basic NLP
 date: "2020-05-01"
 github_link: "https://github.com/Charlie-Mei/understanding-clothing-reviews"
