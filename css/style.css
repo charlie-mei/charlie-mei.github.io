@@ -313,11 +313,12 @@ img {
   font-size: 20px;
   top: -20px;
 }
+
 #fh5co-header #fh5co-logo-small {
   text-align: left;
   font-size: 20px;
-  color: #000;
   margin-left: -200px;
+  color: #000;
 }
 #fh5co-header #fh5co-logo-small a {
   color: #000;
