@@ -27,6 +27,11 @@ body {
   }
 }
 
+hr {
+  margin-top: 10px;
+  margin-left: -200px;
+  margin-right: -200px;
+}
 
 body.fh5co-overflow {
   overflow-x: auto;
