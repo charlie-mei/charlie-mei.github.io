@@ -1,16 +1,18 @@
 project:
-  type: website
+    type: website
+    output-dir: docs
+
 
 website:
-  page-footer: "Made with Quarto!"
-  open-graph: True
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: projects/index.qmd
-        text: Projects
-        icon: book
+    page-footer: "Made with Quarto!"
+    open-graph: True
+    navbar:
+      left:
+        - href: index.qmd
+          text: Home
+        - href: projects/index.qmd
+          text: Projects
+          icon: book
 
 format:
   html:
