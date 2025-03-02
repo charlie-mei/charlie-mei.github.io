@@ -1,0 +1,9 @@
+# quarto generated files
+.local
+
+# quarto generated files
+docs/posts-listing.json
+docs/posts.feed-full-staged
+docs/**/*.html
+
+*.quarto_ipynb
