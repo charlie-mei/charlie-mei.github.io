@@ -1,0 +1,23 @@
+---
+title: "Charlie Mei"
+subtitle: "Data Strategist"
+about:
+    template: trestles
+    links:
+        - icon: github
+          href: https://github.com/charlie-mei
+        - icon: linkedin
+          href: https://www.linkedin.com/in/charlie-mei/
+---
+
+Welcome to my website!
+
+I am a data professional who understands how to make strategic recommendations through data.
+
+Currently, I work in FinTech, but have experience working in Management Consulting and MarTech.
+
+## Education
+
+Columbia University \| New York City, US \| Master of Science
+
+University of Melbourne \| Melbourne, AU \| Bachelor of Commerce (Hons)

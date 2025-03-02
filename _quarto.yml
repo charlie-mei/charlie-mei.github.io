@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  page-footer: "Made with Quarto!"
+  open-graph: True
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Projects
+        icon: book
+
+format:
+  html:
+    theme: cosmo
