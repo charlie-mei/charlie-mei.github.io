@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+$body-bg: #0f1120;
+$body-color: #e4e6f0;
+$primary: #818cf8;
+$link-color: #a5b4fc;
+$navbar-bg: rgba(15, 17, 32, 0.85);
+$navbar-fg: #e4e6f0;
+$navbar-hl: #a5b4fc;
+$footer-fg: #94a3b8;
+
+/*-- scss:rules --*/
+:root {
+  --card-bg: #171a2e;
+  --card-border: rgba(228, 230, 240, .09);
+  --muted: #94a3b8;
+}
+.timeline-item::before { box-shadow: 0 0 0 4px #0f1120; }
+main img { box-shadow: 0 10px 30px -12px rgba(0,0,0,.6); }

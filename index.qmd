@@ -1,23 +1,77 @@
 ---
-title: "Charlie Mei"
-subtitle: "Data Strategist"
-about:
-    template: trestles
-    links:
-        - icon: github
-          href: https://github.com/charlie-mei
-        - icon: linkedin
-          href: https://www.linkedin.com/in/charlie-mei/
+pagetitle: "Charlie Mei · Data Strategist"
+description: "Charlie Mei is a data strategist turning messy data into strategic recommendations."
+listing:
+  id: featured
+  contents: "projects/*.md"
+  type: grid
+  grid-columns: 3
+  sort: "date desc"
+  max-items: 3
+  fields: [image, title, description, categories]
 ---
 
-Welcome to my website!
+::: {.hero}
+<span class="eyebrow">Data Strategist</span>
 
-I am a data professional who understands how to make strategic recommendations through data.
+<h1>Hi, I'm <span class="grad">Charlie Mei</span>.</h1>
 
-Currently, I work in FinTech, but have experience working in Management Consulting and MarTech.
+<p class="lede">I turn data into decisions — translating numbers into strategic recommendations people can actually act on.</p>
+
+<div class="cta">
+<a class="btn btn-primary" href="projects/index.qmd">Explore my projects <i class="bi bi-arrow-right"></i></a>
+<a class="btn btn-outline-secondary" href="https://www.linkedin.com/in/charlie-mei/"><i class="bi bi-linkedin"></i> LinkedIn</a>
+<a class="btn btn-outline-secondary" href="https://github.com/charlie-mei"><i class="bi bi-github"></i> GitHub</a>
+</div>
+:::
+
+## Where I've been
+
+::: {.feature-grid}
+::: {.feature}
+<i class="bi bi-bank"></i>
+
+### FinTech
+
+Currently applying data strategy in financial technology.
+:::
+
+::: {.feature}
+<i class="bi bi-briefcase"></i>
+
+### Management Consulting
+
+Structuring ambiguous business problems into clear, data-backed answers.
+:::
+
+::: {.feature}
+<i class="bi bi-megaphone"></i>
+
+### MarTech
+
+Understanding customers and campaigns through the lens of data.
+:::
+:::
 
 ## Education
 
-Columbia University \| New York City, US \| Master of Science
+::: {.timeline}
+::: {.timeline-item}
+<div class="what">Master of Science</div>
+<div>Columbia University</div>
+<div class="when"><i class="bi bi-geo-alt"></i> New York City, US</div>
+:::
 
-University of Melbourne \| Melbourne, AU \| Bachelor of Commerce (Hons)
+::: {.timeline-item}
+<div class="what">Bachelor of Commerce (Hons)</div>
+<div>University of Melbourne</div>
+<div class="when"><i class="bi bi-geo-alt"></i> Melbourne, AU</div>
+:::
+:::
+
+## Featured projects
+
+::: {#featured}
+:::
+
+<p class="text-end"><a href="projects/index.qmd">See all projects <i class="bi bi-arrow-right"></i></a></p>

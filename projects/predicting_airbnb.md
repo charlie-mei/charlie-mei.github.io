@@ -2,9 +2,12 @@
 title: "Predicting Airbnb Prices"
 date: 2019-04-01
 github_link: "https://github.com/Charlie-Mei/predict-airbnb-prices"
+description: "Which model prices a stay best? Linear, ridge, lasso and random forest go head to head on 35,000+ listings."
+categories: [Machine Learning, Regression]
+image: assets/cover-airbnb.svg
 ---
 
-## Predicting Airbnb Prices
+[<i class="bi bi-github"></i> View the code on GitHub](https://github.com/Charlie-Mei/predict-airbnb-prices){.btn .btn-outline-primary .mb-3}
 
 The rise of Airbnb has provided travelers with an alluring, alternate method of accommodation. Instead of staying in traditional hotels, eager travelers now have the option of staying in other people's homes, making for more of a personal living experience. While we have since seen a meteoric rise in the number of Airbnb stays, hosts of Airbnb accommodations face the dilemma of setting optimal prices for charging travelers for their stay.
 

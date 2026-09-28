@@ -1,19 +1,38 @@
 project:
-    type: website
-    output-dir: docs
-
+  type: website
+  output-dir: docs
 
 website:
-    page-footer: "Made with Quarto!"
-    open-graph: True
-    navbar:
-      left:
-        - href: index.qmd
-          text: Home
-        - href: projects/index.qmd
-          text: Projects
-          icon: book
+  title: "Charlie Mei"
+  site-url: https://charlie-mei.github.io
+  open-graph: true
+  page-navigation: true
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Projects
+      - icon: github
+        href: https://github.com/charlie-mei
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/charlie-mei/
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Charlie Mei"
+    right:
+      - icon: github
+        href: https://github.com/charlie-mei
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/charlie-mei/
+        aria-label: LinkedIn
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, styles/theme.scss]
+      dark: [cosmo, styles/theme.scss, styles/dark.scss]
+    smooth-scroll: true
+    link-external-newwindow: true

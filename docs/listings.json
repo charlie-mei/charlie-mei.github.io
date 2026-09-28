@@ -1,10 +1,18 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/projects/sentiment_tracking.html",
+      "/projects/strategizing_customer_retention.html",
+      "/projects/predicting_airbnb.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
-      "/projects/predicting_airbnb.html",
       "/projects/sentiment_tracking.html",
-      "/projects/strategizing_customer_retention.html"
+      "/projects/strategizing_customer_retention.html",
+      "/projects/predicting_airbnb.html"
     ]
   }
 ]

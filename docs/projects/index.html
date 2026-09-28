@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects</title>
+<title>Projects – Charlie Mei</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,11 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6fc6a495e98b4048c3ef2a04be557c83.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-5c6894aa07fb3c5ae34ce3f7fccd7a3d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -96,6 +99,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -127,34 +131,51 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Projects">
-<meta property="og:description" content="">
+<meta property="og:title" content="Projects – Charlie Mei">
+<meta property="og:description" content="A collection of data projects tackling real-world problems.">
+<meta property="og:image" content="https://charlie-mei.github.io/projects/assets/cover-sentiment.svg">
+<meta property="og:site_name" content="Charlie Mei">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Charlie Mei</span>
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> <i class="bi bi-book" role="img">
-</i> 
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/charlie-mei"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/charlie-mei/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -163,106 +184,144 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q3VzdG9tZXIlMjBTdHJhdGVneQ==">Customer Strategy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TkxQ">NLP <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmFuZG9tJTIwRm9yZXN0">Random Forest <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVncmVzc2lvbg==">Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2VudGltZW50JTIwQW5hbHlzaXM=">Sentiment Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VG9waWMlMjBNb2RlbGluZw==">Topic Modeling <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Projects</h1>
+<p class="subtitle lead">A collection of data projects tackling real-world problems.</p>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>A collection of data-related projects to solve real world problems</p>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1554091200000" data-listing-file-modified-sort="1748055235016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="515">
-<div class="thumbnail">
-<p><a href="../projects/predicting_airbnb.html" class="no-external"></a></p><a href="../projects/predicting_airbnb.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../projects/predicting_airbnb.html" class="no-external"></a></p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../projects/predicting_airbnb.html" class="no-external">Predicting Airbnb Prices</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../projects/predicting_airbnb.html" class="no-external"></a>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="TkxQJTJDU2VudGltZW50JTIwQW5hbHlzaXMlMkNUb3BpYyUyME1vZGVsaW5n" data-listing-date-sort="1596240000000" data-listing-file-modified-sort="1790564178690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<a href="../projects/sentiment_tracking.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/assets/cover-sentiment.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sentiment tracking during COVID-19
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('TkxQ'); return false;">
+NLP
 </div>
-<div class="listing-description">
-<a href="../projects/predicting_airbnb.html" class="no-external">The rise of Airbnb has provided travelers with an alluring, alternate method of accommodation. Instead of staying in traditional hotels, eager travelers now have the option…</a>
+<div class="listing-category" onclick="window.quartoListingCategory('U2VudGltZW50JTIwQW5hbHlzaXM='); return false;">
+Sentiment Analysis
 </div>
-</div>
-<div class="metadata">
-<a href="../projects/predicting_airbnb.html" class="no-external">
-<div class="listing-date">
-Apr 1, 2019
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1596254400000" data-listing-file-modified-sort="1748055235016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
-<div class="thumbnail">
-<p><a href="../projects/sentiment_tracking.html" class="no-external"></a></p><a href="../projects/sentiment_tracking.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../projects/sentiment_tracking.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../projects/sentiment_tracking.html" class="no-external">Sentiment tracking during COVID-19</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../projects/sentiment_tracking.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../projects/sentiment_tracking.html" class="no-external">The airline industry was severely impacted by the COVID-19 pandemic. Being able to track consumer sentiment towards the airline industry can help airlines understand when we…</a>
+<div class="listing-category" onclick="window.quartoListingCategory('VG9waWMlMjBNb2RlbGluZw=='); return false;">
+Topic Modeling
 </div>
 </div>
-<div class="metadata">
-<a href="../projects/sentiment_tracking.html" class="no-external">
+<div class="card-text listing-description">
+Tracking topics and consumer sentiment toward airlines through the turbulence of COVID-19.
+</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Aug 1, 2020
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="1" data-categories="TkxQJTJDUmFuZG9tJTIwRm9yZXN0JTJDQ3VzdG9tZXIlMjBTdHJhdGVneQ==" data-listing-date-sort="1588291200000" data-listing-file-modified-sort="1790564158345" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="520">
+<a href="../projects/strategizing_customer_retention.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/assets/review-wordcloud.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Strategizing customer retention with customer review data
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('TkxQ'); return false;">
+NLP
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1588305600000" data-listing-file-modified-sort="1748055235016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="523">
-<div class="thumbnail">
-<p><a href="../projects/strategizing_customer_retention.html" class="no-external"></a></p><a href="../projects/strategizing_customer_retention.html" class="no-external">
-<p class="card-img-top"><img src="assets/review-wordcloud.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../projects/strategizing_customer_retention.html" class="no-external"></a></p>
+<div class="listing-category" onclick="window.quartoListingCategory('UmFuZG9tJTIwRm9yZXN0'); return false;">
+Random Forest
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../projects/strategizing_customer_retention.html" class="no-external">Strategizing customer retention with customer review data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../projects/strategizing_customer_retention.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../projects/strategizing_customer_retention.html" class="no-external">As customer needs grow more and more complex, businesses require a deeper understanding of their customers in order to boost retention and brand loyalty. Anonymized product…</a>
+<div class="listing-category" onclick="window.quartoListingCategory('Q3VzdG9tZXIlMjBTdHJhdGVneQ=='); return false;">
+Customer Strategy
 </div>
 </div>
-<div class="metadata">
-<a href="../projects/strategizing_customer_retention.html" class="no-external">
+<div class="card-text listing-description">
+Mining e-commerce clothing reviews to find the words that predict a recommendation.
+</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 1, 2020
 </div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="2" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDUmVncmVzc2lvbg==" data-listing-date-sort="1554076800000" data-listing-file-modified-sort="1790564178690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
+<a href="../projects/predicting_airbnb.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/assets/cover-airbnb.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Predicting Airbnb Prices
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVncmVzc2lvbg=='); return false;">
+Regression
+</div>
+</div>
+<div class="card-text listing-description">
+Which model prices a stay best? Linear, ridge, lasso and random forest go head to head on 35,000+ listings.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Apr 1, 2019
+</div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main></div>
-</div>
- <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -283,6 +342,157 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -346,7 +556,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/charlie-mei\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -360,6 +570,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -677,13 +892,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>© 2026 Charlie Mei</p>
+</div>   
     <div class="nav-footer-center">
-<p>Made with Quarto!</p>
-</div>
-    <div class="nav-footer-right">
       &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/charlie-mei">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/charlie-mei/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+</ul>
     </div>
   </div>
 </footer>
@@ -691,4 +919,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

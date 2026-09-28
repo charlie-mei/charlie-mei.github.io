@@ -1,9 +1,10 @@
 ---
 title: Strategizing customer retention with customer review data
 date: "2020-05-01"
+description: "Mining e-commerce clothing reviews to find the words that predict a recommendation."
+categories: [NLP, Random Forest, Customer Strategy]
+image: assets/review-wordcloud.jpg
 ---
-
-## Strategizing customer retention with customer review data
 
 As customer needs grow more and more complex, businesses require a deeper understanding of their customers in order to boost retention and brand loyalty. Anonymized product reviews provide a treasure grove of data for companies to better understand their customers.
 

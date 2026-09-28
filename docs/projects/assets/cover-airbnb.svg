@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#db2777"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <g fill="none" stroke="#fff" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" opacity=".95">
+    <path d="M300 250 L400 170 L500 250 V340 H300 Z"/>
+    <path d="M375 340 V285 H425 V340"/>
+  </g>
+  <g fill="#fff" opacity=".25">
+    <circle cx="120" cy="330" r="10"/><circle cx="180" cy="290" r="10"/><circle cx="240" cy="300" r="10"/>
+    <circle cx="570" cy="200" r="10"/><circle cx="630" cy="150" r="10"/><circle cx="690" cy="110" r="10"/>
+  </g>
+  <path d="M90 360 L700 90" stroke="#fff" stroke-width="4" stroke-dasharray="14 12" opacity=".5"/>
+  <text x="400" y="110" fill="#fff" font-family="Georgia,serif" font-size="46" font-weight="700" text-anchor="middle" opacity=".95">$ = f(x)</text>
+</svg>

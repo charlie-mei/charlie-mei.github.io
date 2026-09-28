@@ -1,8 +1,15 @@
 ---
 title: "Projects"
-listing: default
-about:
-    template: trestles
+subtitle: "A collection of data projects tackling real-world problems."
+listing:
+  contents: "*.md"
+  type: grid
+  grid-columns: 3
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  fields: [image, date, title, description, categories]
+title-block-banner: false
+toc: false
 ---
-
-A collection of data-related projects to solve real world problems
